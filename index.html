@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Ortúzar-Garzón</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/profile.jpeg" alt="Profile Image" class="profile-img">
+            <h1>Valentina Ortúzar-Garzón</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#introduction">About me</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#talks_and_posters">Contributed Talks and Posters</a></li>
+                <li><a href="#resume">Curriculum Vitae</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>About me</h2>
+            <p>I am a Ph.D. student at the Astrophysics Institute in 
+                Pontificia Universidad Católica de Chile, working under 
+                the supervision of Dr. Claudia Aguilera. My research focuses 
+                on dead stars, better known as white dwarfs. I especially like
+                 metal polluted systems, as they give us information about the
+                  fate of planetary systems. 
+            </p>
+            <img src="images/about-me.jpg" alt="About me image" class="section-image">
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <p style="margin-bottom: 1rem;">During my Ph.D. at Pontificia Universidad Católica de Chile I 
+                have been working on <b>spectro-photometric analysis of white 
+                dwarf atmospheres with machine learning</b>. Motivated by the large 
+                scale surveys upcoming in the following years, and under the 
+                supervision of <b>Dr. Claudia Aguilera-Gómez</b>, I have been working
+                to develop an efficient machine learning based pipeline to
+                 estimate stellar parameters for white dwarfs, based on their 
+                 photometric and/or spectroscopic observations.
+                </p>
+            
+            <p>This idea was born during the last year of my Bachelors, where I <b>tested 
+                 mass-radius relations of white dwarfs by predicting stellar 
+                 parameters for UV spectroscopy</b> of a small sample of white dwarfs, 
+                 while working in <b>Dr. Odette Toloza</b>'s group, at Universidad Técnica 
+                 Federico Santa María. 
+                 </p>        
+
+            <p> Previously, I had the chance to work with <b>Dr. 
+                 Matthias Schreiber</b>, on a one-semester long project that focused on 
+                 modeling <b>cataclysmic variable evolution using MESA to test a 
+                 magnetic braking prescription</b> (Ortúzar-Garzón et al. (2024)).
+                 </p>
+
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="#">Publication Title 1</a> - Journal/Conference, Year</li>
+                <li><a href="#">Publication Title 2</a> - Journal/Conference, Year</li>
+                <!-- Add more publications -->
+            </ul>
+        </section>
+        <section id="talks_and_posters">
+            <h2>Contributed Talks and Posters</h2>
+            <p>I have been very passionate about sharing my work in several seminars, workshops and conferences, both in English and Spanish. I have done this not only with a scientific purpose, but also to communicate science to a general audience, in student organized workshops and seminars focused on highlighting the role of women in STEM. </p>
+            <ul class="talk-list">
+                <li>
+                    <img src="images/sochias_2024.jpeg" alt="Poster thumbnail">
+                    <div class="talk-info">
+                        <a href="#">Talk Title 1</a>
+                        <span>Conference, Year</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/sochias_2025_2.jpeg" alt="Poster thumbnail">
+                    <div class="talk-info">
+                        <a href="#">Poster Title 1</a>
+                        <span>Conference, Year</span>
+                    </div>
+                </li>
+                <!-- Add more talks and posters -->
+            </ul>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p><a href="resume.pdf" target="_blank">Download my resume</a></p>
+            <!-- Or embed content here -->
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/moon.jpg" alt="Moon photo break while studying for my first physics exam during my Bachelors">
+                <img src="images/baade.jpg" alt="Observing for the first time at Las Campanas Observatory, Chile, during my Bachelors">
+                <img src="images/clay.jpg" alt="Before the first observing run at Las Campanas Observatory, Chile, during my Bachelors">
+                <img src="images/dupont.jpg" alt="Long walk to Du Pont">
+                <img src="images/ivanna.jpg" alt="Fun before science">
+                <img src="images/lco_2025.jpeg" alt="Morning view">
+               <img src="images/sochias_2024.jpeg" alt="First poster at the XIX SOCHIAS Annual Meeting, 2024">
+               <img src="images/sochias_2025_2.jpeg" alt="Contributed talk at the XX SOCHIAS Annual Meeting, 2025">
+                <!-- Add more images -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form" action="https://formspree.io/f/movkngzr" method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" name="_replyto" id="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Valentina Ortúzar-Garzón. All rights reserved.</p>
+    </footer>
+</body>
+</html>
