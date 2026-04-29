@@ -171,6 +171,18 @@ footer {
     margin-top: 2rem;
 }
 
+/* Language switch button */
+nav a.lang-link {
+    background-color: #fff;
+    color: #830089;
+    font-weight: bold;
+    border: 2px solid #830089;
+}
+
+nav a.lang-link:hover {
+    background-color: #f0f0f0;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     header {
